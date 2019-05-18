@@ -23,7 +23,7 @@
 		<junit.version>4.12</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		 
-		<sonar.host.url>http://ec2-13-250-104-78.ap-southeast-1.compute.amazonaws.com:9000/</sonar.host.url> 
+		<sonar.host.url>http://172.31.23.167:9000/</sonar.host.url> 
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -90,12 +90,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>admin</name>
-	      <url>http://ec2-54-254-205-101.ap-southeast-1.compute.amazonaws.com:8081/repository/opstree-release/</url>
+	      <url>http://172.31.31.201:8081/repository/opstree-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>admin</name>
-	      <url>http://ec2-54-254-205-101.ap-southeast-1.compute.amazonaws.com:8081/repository/opstree-snapshot/</url>
+	      <url>http://172.31.31.201:8081/repository/opstree-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
